@@ -29,7 +29,7 @@ int main(int argc, const char * argv[]) {
         
         int min = 0;
         int max = (int)[array count] - 1;
-        int target = 9;
+        int target = 11;
         
         NSLog(@"%i", binarySearch(array, target, min, max));
        
